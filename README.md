@@ -1,0 +1,1 @@
+# PiotrTrojan.AspNetCore.IdentityErrorLocalization
