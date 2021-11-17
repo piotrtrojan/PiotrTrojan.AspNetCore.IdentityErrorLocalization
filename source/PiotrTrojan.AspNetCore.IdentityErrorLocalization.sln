@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.PL-pl\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL.csproj", "{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL.csproj", "{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES\PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES.csproj", "{58E20754-EA10-4913-9180-12D677EECEA5}"
 EndProject
