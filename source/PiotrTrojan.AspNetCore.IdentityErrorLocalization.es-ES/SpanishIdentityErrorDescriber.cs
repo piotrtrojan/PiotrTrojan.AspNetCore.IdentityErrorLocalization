@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System;
 
 namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization.es_ES
 {

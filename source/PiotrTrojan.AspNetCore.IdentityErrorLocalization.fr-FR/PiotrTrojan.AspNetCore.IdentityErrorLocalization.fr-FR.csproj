@@ -4,10 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr_FR</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Description>
       French localization for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
       Contains both IdentityErrorDescriber and IdentityBuilderExtension to register the Describer.
+      For multilanguage support based on HTTP headers consider using PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang nuget with proper factory.
     </Description>
     <Copyright>Piotr Trojan</Copyright>
     <PackageProjectUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</PackageProjectUrl>

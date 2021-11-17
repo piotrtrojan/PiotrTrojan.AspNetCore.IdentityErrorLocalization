@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <Description>
+      Localizations for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
+      Resolved describer is based on "accept-language" HTTP request header.
+      Contains localizations French, German, Persian, Polish, Portuguese, Russian, Spanish and Turkish.
+      Contains Extensions to register proper Factory and Describer.
+    </Description>
+    <Copyright>Piotr Trojan</Copyright>
+    <PackageProjectUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</RepositoryUrl>
+    <PackageTags>aspnetcore identity localization multilang</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE\GermanIdentityErrorDescriber.cs" Link="GermanIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES\SpanishIdentityErrorDescriber.cs" Link="SpanishIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR\PersianIdentityErrorDescriber.cs" Link="PersianIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR\FrenchIdentityErrorDescriber.cs" Link="FrenchIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL\PolishIdentityErrorDescriber.cs" Link="PolishIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT\PortugueseIdentityErrorDescriber.cs" Link="PortugueseIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU\RussianIdentityErrorDescriber.cs" Link="RussianIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR\TurkishIdentityErrorDescriber.cs" Link="TurkishIdentityErrorDescriber.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.12" />
+  </ItemGroup>
+
+</Project>

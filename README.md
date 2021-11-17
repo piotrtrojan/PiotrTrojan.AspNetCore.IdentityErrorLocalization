@@ -3,6 +3,25 @@
 
 ## Usage
 
+### Multilanguage
+
+Error messages can be generated based on `accept-language` HTTP header.
+For this, install `PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang` package, register proper factory:
+
+```cs
+serviceCollection.RegisterIdentityErrorDescriberFactory();
+```
+
+and proper error describer
+
+```cs
+serviceCollection
+  .AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>() // Returns IdentityBuilder
+  .AddIdentityErrorDescriberBasedOnHeaders(); // Multilanguage support added.
+```
+
+### Specific language
+
 To add localization to your Identity use `Add{X}IdentityErrorDescriber()` method to your IdentityBuilder chain, where {X} is your desired language.
 Languages currently available:
 
@@ -20,11 +39,10 @@ Example:
 
 ```cs
 serviceCollection
-  .AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>()
-  .AddEntityFrameworkStores<DbContext>()
-  .AddPolishIdentityErrorDescriber() // Polish errors translations added
-  .AddDefaultTokenProviders();
+  .AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>() // Returns IdentityBuilder
+  .AddPolishIdentityErrorDescriber(); // Polish errors translations added
 ```
+
 Every available language is in separate package, `PiotrTrojan.AspNetCore.IdentityErrorLocalization.{Culture}`, e.g. `PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE`
 
 Feel free to suggest me improvements or to help me with new languages.
