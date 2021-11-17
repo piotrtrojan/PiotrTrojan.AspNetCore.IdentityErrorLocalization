@@ -17,11 +17,14 @@ Languages currently available:
 * Turkish (tr-TR)
 
 Example:
-`serviceCollection.AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>()`
-`.AddEntityFrameworkStores<DbContext>()`
-`.AddPolishIdentityErrorDescriber()`
-`.AddDefaultTokenProviders();`
 
+```cs
+serviceCollection
+  .AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>()
+  .AddEntityFrameworkStores<DbContext>()
+  .AddPolishIdentityErrorDescriber() // Polish errors translations added
+  .AddDefaultTokenProviders();
+```
 Every available language is in separate package, `PiotrTrojan.AspNetCore.IdentityErrorLocalization.{Culture}`, e.g. `PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE`
 
 Feel free to suggest me improvements or to help me with new languages.
