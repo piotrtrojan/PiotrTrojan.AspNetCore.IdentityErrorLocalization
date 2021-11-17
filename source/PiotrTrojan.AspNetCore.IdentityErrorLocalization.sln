@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.PL-pl\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL.csproj", "{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES\PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES.csproj", "{58E20754-EA10-4913-9180-12D677EECEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT.csproj", "{EC820205-7D2A-4EFB-92EA-CF3F949F2BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR.csproj", "{2B97E901-3EA1-4408-8D92-8A9E177AAA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE\PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE.csproj", "{2D00F7EE-D261-4299-9B45-604A37E6A721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR.csproj", "{0BA2B9D2-3947-453B-B09E-48F5D53F8DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU\PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU.csproj", "{81C185EC-9690-47A7-9599-C4FAA689BA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR.csproj", "{159191E8-CB15-4110-9C28-05236F4C1E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A252FF-0AE2-48C7-BDD1-A7AFA0EACBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E20754-EA10-4913-9180-12D677EECEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E20754-EA10-4913-9180-12D677EECEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E20754-EA10-4913-9180-12D677EECEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E20754-EA10-4913-9180-12D677EECEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC820205-7D2A-4EFB-92EA-CF3F949F2BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC820205-7D2A-4EFB-92EA-CF3F949F2BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC820205-7D2A-4EFB-92EA-CF3F949F2BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC820205-7D2A-4EFB-92EA-CF3F949F2BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B97E901-3EA1-4408-8D92-8A9E177AAA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B97E901-3EA1-4408-8D92-8A9E177AAA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B97E901-3EA1-4408-8D92-8A9E177AAA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B97E901-3EA1-4408-8D92-8A9E177AAA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D00F7EE-D261-4299-9B45-604A37E6A721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D00F7EE-D261-4299-9B45-604A37E6A721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D00F7EE-D261-4299-9B45-604A37E6A721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D00F7EE-D261-4299-9B45-604A37E6A721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA2B9D2-3947-453B-B09E-48F5D53F8DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA2B9D2-3947-453B-B09E-48F5D53F8DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA2B9D2-3947-453B-B09E-48F5D53F8DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA2B9D2-3947-453B-B09E-48F5D53F8DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C185EC-9690-47A7-9599-C4FAA689BA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C185EC-9690-47A7-9599-C4FAA689BA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C185EC-9690-47A7-9599-C4FAA689BA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C185EC-9690-47A7-9599-C4FAA689BA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159191E8-CB15-4110-9C28-05236F4C1E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159191E8-CB15-4110-9C28-05236F4C1E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159191E8-CB15-4110-9C28-05236F4C1E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159191E8-CB15-4110-9C28-05236F4C1E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73EBA825-8CEC-4554-AC7D-02DA99C52DB4}
+	EndGlobalSection
+EndGlobal
