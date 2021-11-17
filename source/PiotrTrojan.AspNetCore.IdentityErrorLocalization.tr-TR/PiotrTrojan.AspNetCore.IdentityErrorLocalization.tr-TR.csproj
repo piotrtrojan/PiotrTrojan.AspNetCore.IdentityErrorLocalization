@@ -1,8 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr_TR</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Description>
+      Turkish localization for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
+      Contains both IdentityErrorDescriber and IdentityBuilderExtension to register the Describer.
+    </Description>
+    <Copyright>Piotr Trojan</Copyright>
+    <PackageProjectUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</RepositoryUrl>
+    <PackageTags>aspnetcore identity localization turkish tr-TR tr</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
