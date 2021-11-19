@@ -1,6 +1,15 @@
 
 # PiotrTrojan.AspNetCore.IdentityErrorLocalization
 
+## Release notes
+
+### 1.0.3
+
+* Fixed bug in Multilang - English Error Describer (included in Microsoft.Extensions.Identity.Core) is used for 'en' or no language provided.
+* Information (Exception message) added when IdentityErrorDescriberFactory is not registered (Multilang).
+  It will inform user that he forgot to register factory (via extension method) instead of throwing generic Exception (Cannot resolve service).
+* Fixed nuget files generation (internal change)
+
 ## Usage
 
 ### Multilanguage
@@ -16,8 +25,8 @@ and proper error describer
 
 ```cs
 serviceCollection
-  .AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>() // Returns IdentityBuilder
-  .AddIdentityErrorDescriberBasedOnHeaders(); // Multilanguage support added.
+  .AddIdentity<IdentityUser<Guid>, IdentityRole<Guid>>() // Returns IdentityBuilder, Generics just as an example.
+  .AddMultilangIdentityErrorDescriber(); // Multilanguage support added.
 ```
 
 ### Specific language

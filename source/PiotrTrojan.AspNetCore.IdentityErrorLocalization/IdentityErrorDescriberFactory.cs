@@ -24,6 +24,7 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
             return culture.ToLower() switch
             {
                 "" => new IdentityErrorDescriber(),
+                "en" => new IdentityErrorDescriber(),
                 "de" => new GermanIdentityErrorDescriber(),
                 "es" => new SpanishIdentityErrorDescriber(),
                 "fa" => new PersianIdentityErrorDescriber(),

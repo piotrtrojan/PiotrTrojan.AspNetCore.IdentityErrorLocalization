@@ -3,13 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang</RootNamespace>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
-    <Description>
-      Localizations for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
-      Resolved describer is based on "accept-language" HTTP request header.
-      Contains localizations French, German, Persian, Polish, Portuguese, Russian, Spanish and Turkish.
-      Contains Extensions to register proper Factory and Describer.
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.3</Version>
+    <Description>Localizations for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
+Resolved describer is based on "accept-language" HTTP request header.
+Contains localizations French, German, Persian, Polish, Portuguese, Russian, Spanish and Turkish.
+Contains Extensions to register proper Factory and Describer.
     </Description>
     <Copyright>Piotr Trojan</Copyright>
     <PackageProjectUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</PackageProjectUrl>
@@ -35,4 +34,8 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.12" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="del ..\..\nuget\$(ProjectName)*&#xD;&#xA;IF exist ..\..\nuget ( echo nuget dir exists ) ELSE ( mkdir ..\..\nuget &amp;&amp; echo nuget dir created)&#xD;&#xA;dotnet pack $(ProjectFileName) -c Release --no-build --no-restore --output ..\..\nuget\" />
+  </Target>
+  
 </Project>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System;
 
 namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
 {
@@ -6,9 +7,12 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
     {
         private readonly IdentityErrorDescriber describer;
 
-        public MultilangIdentityErrorDescriber(IdentityErrorDescriberFactory factory)
+        public MultilangIdentityErrorDescriber(Lazy<IdentityErrorDescriberFactory> factory)
         {
-            this.describer = factory.GetDescriber();
+            describer = factory?.Value.GetDescriber() ?? 
+                throw new Exception(
+                    "IdentityErrorDescriberFactory not registered." +
+                    "Call AddMultilangIdentityErrorDescriberFactory() on IServiceCollection during services registration.");
         }
 
         public override IdentityError ConcurrencyFailure() => describer.ConcurrencyFailure();
