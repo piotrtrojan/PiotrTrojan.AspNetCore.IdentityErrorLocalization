@@ -5,7 +5,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     public static class IdentityBuilderExtensions
     {
-        public static IdentityBuilder AddPolishIdentityErrorDescriber(this IdentityBuilder identityBuilder) 
+        public static IdentityBuilder AddPolishIdentityErrorDescriber(this IdentityBuilder identityBuilder)
             => identityBuilder.AddErrorDescriber<PolishIdentityErrorDescriber>();
     }
 }

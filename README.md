@@ -1,7 +1,12 @@
-
 # PiotrTrojan.AspNetCore.IdentityErrorLocalization
 
 ## Release notes
+
+### 1.0.4
+
+* Swedish (sv-SE) translations added.
+* Ukrainian (uk-UA) translations added.
+* C# 9 syntax applied to shorted code.
 
 ### 1.0.3
 
@@ -26,8 +31,10 @@
 * [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR)
 * [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL)
 * [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE)
 * [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU)
 * [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA)
 
 ### Multilanguage
 
@@ -57,8 +64,10 @@ Languages currently available:
 * French (fr-FR)
 * Polish (pl-PL)
 * Portuguese (pt-PT)
+* Swedish (sv-SE)
 * Russian (ru-RU)
 * Turkish (tr-TR)
+* Ukrainian (uk-UA)
 
 Example:
 

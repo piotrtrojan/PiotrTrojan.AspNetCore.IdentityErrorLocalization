@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiotrTrojan.AspNetCore.Iden
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR.csproj", "{159191E8-CB15-4110-9C28-05236F4C1E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang", "PiotrTrojan.AspNetCore.IdentityErrorLocalization\PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang.csproj", "{79ED97CB-0EAC-4232-8760-178EB7EF3ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang", "PiotrTrojan.AspNetCore.IdentityErrorLocalization\PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang.csproj", "{79ED97CB-0EAC-4232-8760-178EB7EF3ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE\PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE.csproj", "{75DC41CD-DDBB-4DC3-B7D2-19785E3A0633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA\PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA.csproj", "{987099E2-4CE2-41ED-953F-C9C89B1949F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{79ED97CB-0EAC-4232-8760-178EB7EF3ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79ED97CB-0EAC-4232-8760-178EB7EF3ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79ED97CB-0EAC-4232-8760-178EB7EF3ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DC41CD-DDBB-4DC3-B7D2-19785E3A0633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DC41CD-DDBB-4DC3-B7D2-19785E3A0633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DC41CD-DDBB-4DC3-B7D2-19785E3A0633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DC41CD-DDBB-4DC3-B7D2-19785E3A0633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987099E2-4CE2-41ED-953F-C9C89B1949F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987099E2-4CE2-41ED-953F-C9C89B1949F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987099E2-4CE2-41ED-953F-C9C89B1949F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987099E2-4CE2-41ED-953F-C9C89B1949F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

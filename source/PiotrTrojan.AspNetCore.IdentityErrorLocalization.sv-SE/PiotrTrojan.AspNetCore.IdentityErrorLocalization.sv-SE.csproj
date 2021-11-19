@@ -2,17 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr_TR</RootNamespace>
+    <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv_SE</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>1.0.4</Version>
-    <Description>Turkish localization for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
+    <Description>Swedish localization for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
 Contains both IdentityErrorDescriber and IdentityBuilderExtension to register the Describer.
 For multilanguage support based on HTTP headers consider using PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang nuget with proper factory.
     </Description>
     <Copyright>Piotr Trojan</Copyright>
     <PackageProjectUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</PackageProjectUrl>
     <RepositoryUrl>https://github.com/piotrtrojan/PiotrTrojan.AspNetCore.IdentityErrorLocalization</RepositoryUrl>
-    <PackageTags>aspnetcore identity localization turkish tr-TR tr</PackageTags>
+    <PackageTags>aspnetcore identity localization swedish sv-SE sv</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 

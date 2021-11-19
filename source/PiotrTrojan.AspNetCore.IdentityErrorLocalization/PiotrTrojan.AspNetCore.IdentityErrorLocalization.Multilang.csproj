@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Description>Localizations for IdentityErrorDescriber (Microsoft.AspNetCore.Identity) for .net 5.
 Resolved describer is based on "accept-language" HTTP request header.
 Contains localizations French, German, Persian, Polish, Portuguese, Russian, Spanish and Turkish.
@@ -24,8 +24,10 @@ Contains Extensions to register proper Factory and Describer.
     <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR\FrenchIdentityErrorDescriber.cs" Link="FrenchIdentityErrorDescriber.cs" />
     <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL\PolishIdentityErrorDescriber.cs" Link="PolishIdentityErrorDescriber.cs" />
     <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT\PortugueseIdentityErrorDescriber.cs" Link="PortugueseIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE\SwedishIdentityErrorDescriber.cs" Link="SwedishIdentityErrorDescriber.cs" />
     <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU\RussianIdentityErrorDescriber.cs" Link="RussianIdentityErrorDescriber.cs" />
     <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR\TurkishIdentityErrorDescriber.cs" Link="TurkishIdentityErrorDescriber.cs" />
+    <Compile Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA\UkrainianIdentityErrorDescriber.cs" Link="UkrainianIdentityErrorDescriber.cs" />
   </ItemGroup>
   
   <ItemGroup>

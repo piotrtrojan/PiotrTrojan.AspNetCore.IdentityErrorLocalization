@@ -6,7 +6,9 @@ using PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr_FR;
 using PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl_PL;
 using PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt_PT;
 using PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru_RU;
+using PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv_SE;
 using PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr_TR;
+using PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk_UA;
 using System;
 
 namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
@@ -19,6 +21,7 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
         {
             this.culture = culture ?? "";
         }
+
         public IdentityErrorDescriber GetDescriber()
         {
             return culture.ToLower() switch
@@ -32,8 +35,10 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
                 "pl" => new PolishIdentityErrorDescriber(),
                 "pt" => new PortugueseIdentityErrorDescriber(),
                 "ru" => new RussianIdentityErrorDescriber(),
+                "sv" => new SwedishIdentityErrorDescriber(),
                 "tr" => new TurkishIdentityErrorDescriber(),
-                _ => throw new ArgumentException($"Unsuported culture: {culture}")
+                "uk" => new UkrainianIdentityErrorDescriber(),
+                _ => throw new ArgumentException($"Unsuported culture: {culture}.")
             };
         }
     }
