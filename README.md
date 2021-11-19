@@ -12,6 +12,23 @@
 
 ## Usage
 
+### Nuget packages
+
+#### Multi language support
+
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang)
+
+#### Specific language
+
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU)
+* [nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR](https://www.nuget.org/packages/PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR)
+
 ### Multilanguage
 
 Error messages can be generated based on `accept-language` HTTP header.
@@ -37,7 +54,6 @@ Languages currently available:
 * German (de-DE)
 * Spanish (es-ES)
 * Persian (fa-IR)
-* Portuguese (pt-PT)
 * French (fr-FR)
 * Polish (pl-PL)
 * Portuguese (pt-PT)
