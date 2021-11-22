@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HttpContextMoq" Version="1.2.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.3.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--<ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE\PiotrTrojan.AspNetCore.IdentityErrorLocalization.de-DE.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES\PiotrTrojan.AspNetCore.IdentityErrorLocalization.es-ES.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fa-IR.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.fr-FR.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl-PL.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-PT.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU\PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru-RU.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE\PiotrTrojan.AspNetCore.IdentityErrorLocalization.sv-SE.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.tr-TR.csproj" />
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA\PiotrTrojan.AspNetCore.IdentityErrorLocalization.uk-UA.csproj" />-->
+    <ProjectReference Include="..\PiotrTrojan.AspNetCore.IdentityErrorLocalization\PiotrTrojan.AspNetCore.IdentityErrorLocalization.Multilang.csproj" />
+  </ItemGroup>
+
+</Project>

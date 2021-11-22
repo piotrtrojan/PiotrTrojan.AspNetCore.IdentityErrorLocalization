@@ -10,13 +10,14 @@ namespace Microsoft.Extensions.DependencyInjection
         {
             serviceCollection.AddScoped<IdentityErrorDescriberFactory>(sp =>
             {
-                var httpContext = sp.GetRequiredService<IHttpContextAccessor>().HttpContext;
-                var culture = httpContext.Request
-                    .GetTypedHeaders()
-                    .AcceptLanguage
-                    .OrderByDescending(q => q.Quality)
-                    .FirstOrDefault()?.Value.Value ?? string.Empty;
+                var httpContext = sp.GetService<IHttpContextAccessor>()?.HttpContext;
+                var culture = httpContext?.Request
+                        .GetTypedHeaders()
+                        .AcceptLanguage
+                        .OrderByDescending(q => q.Quality)
+                        .FirstOrDefault()?.Value.Value ?? string.Empty;
                 return new IdentityErrorDescriberFactory(culture);
+
             });
             return serviceCollection;
         }

@@ -7,10 +7,9 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization
     {
         private readonly IdentityErrorDescriber describer;
 
-        public MultilangIdentityErrorDescriber(Lazy<IdentityErrorDescriberFactory> factory)
+        public MultilangIdentityErrorDescriber(IdentityErrorDescriberFactory factory = null)
         {
-            describer = factory?.Value.GetDescriber() ??
-                throw new Exception(
+            describer = factory?.GetDescriber() ?? throw new Exception(
                     "IdentityErrorDescriberFactory not registered." +
                     "Call AddMultilangIdentityErrorDescriberFactory() on IServiceCollection during services registration.");
         }

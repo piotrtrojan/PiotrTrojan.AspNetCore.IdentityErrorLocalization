@@ -2,6 +2,11 @@
 
 ## Release notes
 
+### 1.0.6
+
+* Fix for dependency injection in Multilanguage package.
+* Unit tests added (to be continued).
+
 ### 1.0.4
 
 * Swedish (sv-SE) translations added.
