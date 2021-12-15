@@ -5,7 +5,7 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl_PL
     public class PolishIdentityErrorDescriber : IdentityErrorDescriber
     {
         public override IdentityError ConcurrencyFailure() => new() { Code = nameof(ConcurrencyFailure), Description = "Błąd współbieżności, obiekt został zmodyfikowany." };
-        public override IdentityError DefaultError() => new() { Code = nameof(DefaultError), Description = $"Wystąpił nieanany błąd." };
+        public override IdentityError DefaultError() => new() { Code = nameof(DefaultError), Description = $"Wystąpił nieznany błąd." };
         public override IdentityError DuplicateEmail(string email) => new() { Code = nameof(DuplicateEmail), Description = $"Adres '{email}' jest zajęty." };
         public override IdentityError DuplicateRoleName(string role) => new() { Code = nameof(DuplicateRoleName), Description = $"Nazwa grupy '{role}' jest zajęta." };
         public override IdentityError DuplicateUserName(string userName) => new() { Code = nameof(DuplicateUserName), Description = $"Nazwa użytkownika '{userName}' jest zajęta." };

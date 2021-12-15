@@ -2,6 +2,11 @@
 
 ## Release notes
 
+### 1.0.7
+
+* Portuguese translation minor fixes.
+* Polish translation minor fixes.
+
 ### 1.0.6
 
 * Fix for dependency injection in Multilanguage package.
