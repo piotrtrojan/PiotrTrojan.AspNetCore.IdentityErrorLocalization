@@ -18,7 +18,7 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization.pl_PL
         public override IdentityError PasswordRequiresDigit() => new() { Code = nameof(PasswordRequiresDigit), Description = "Hasło musi posiadać przynajmniej jedną cyfrę ('0'-'9')." };
         public override IdentityError PasswordRequiresLower() => new() { Code = nameof(PasswordRequiresLower), Description = "Hasło musi posiadać przynajmniej jedną małą literę ('a'-'z')." };
         public override IdentityError PasswordRequiresNonAlphanumeric() => new() { Code = nameof(PasswordRequiresNonAlphanumeric), Description = "Hasło musi posiadać przynajmniej jeden znak alfanumeryczny." };
-        public override IdentityError PasswordRequiresUniqueChars(int uniqueChars) => new() { Code = nameof(PasswordRequiresNonAlphanumeric), Description = "Hasło musi posiadać przynajmniej jeden znak specjalny." };
+        public override IdentityError PasswordRequiresUniqueChars(int uniqueChars) => new() { Code = nameof(PasswordRequiresUniqueChars), Description = "Hasło musi posiadać przynajmniej jeden znak specjalny." };
         public override IdentityError PasswordRequiresUpper() => new() { Code = nameof(PasswordRequiresUpper), Description = "Hasło musi posiadać przynajmniej jedną wielką literę ('A'-'Z')." };
         public override IdentityError PasswordTooShort(int length) => new() { Code = nameof(PasswordTooShort), Description = $"Hasło musi posiadać conajmniej {length} znaków." };
         public override IdentityError RecoveryCodeRedemptionFailed() => new() { Code = nameof(RecoveryCodeRedemptionFailed), Description = "Błąd podczas próby użycia kodu odzyskiwania ." };
