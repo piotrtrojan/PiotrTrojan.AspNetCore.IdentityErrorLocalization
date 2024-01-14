@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.Iden
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.Test", "PiotrTrojan.AspNetCore.IdentityErrorLocalization.Test\PiotrTrojan.AspNetCore.IdentityErrorLocalization.Test.csproj", "{79342E03-8581-4D29-A445-639066B626F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-br-PT-BR", "IdentityErrorLocalization.pt-br-PT-BR\PiotrTrojan.AspNetCore.IdentityErrorLocalization.pt-br-PT-BR.csproj", "{D74F910A-413C-41AB-A4AA-BD219CF3CADD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{79342E03-8581-4D29-A445-639066B626F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79342E03-8581-4D29-A445-639066B626F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79342E03-8581-4D29-A445-639066B626F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74F910A-413C-41AB-A4AA-BD219CF3CADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74F910A-413C-41AB-A4AA-BD219CF3CADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74F910A-413C-41AB-A4AA-BD219CF3CADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74F910A-413C-41AB-A4AA-BD219CF3CADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
