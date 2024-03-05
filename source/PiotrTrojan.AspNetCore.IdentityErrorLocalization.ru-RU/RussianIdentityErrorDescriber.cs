@@ -12,7 +12,7 @@ namespace PiotrTrojan.AspNetCore.IdentityErrorLocalization.ru_RU
         public override IdentityError InvalidEmail(string email) => new() { Code = nameof(InvalidEmail), Description = $"Email '{email}' некорректен" };
         public override IdentityError InvalidRoleName(string role) => new() { Code = nameof(InvalidRoleName), Description = $"Имя роли '{role}' некорректно" };
         public override IdentityError InvalidToken() => new() { Code = nameof(InvalidToken), Description = "Недействительный токен" };
-        public override IdentityError InvalidUserName(string userName) => new() { Code = nameof(InvalidUserName), Description = $"Имя пользователя '{userName}' некорректно, может содержать только буквы и цифры" };
+        public override IdentityError InvalidUserName(string userName) => new() { Code = nameof(InvalidUserName), Description = $"Имя пользователя '{userName}' некорректно, может содержать только цифры и латинские буквы" };
         public override IdentityError LoginAlreadyAssociated() => new() { Code = nameof(LoginAlreadyAssociated), Description = "Пользователь с таким логином уже существует" };
         public override IdentityError PasswordMismatch() => new() { Code = nameof(PasswordMismatch), Description = "Некорретный пароль" };
         public override IdentityError PasswordRequiresDigit() => new() { Code = nameof(PasswordRequiresDigit), Description = "Пароль должен содержать хотя бы одну цифру ('0'-'9')." };
